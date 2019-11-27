@@ -1,0 +1,59 @@
+/* styles needed
+Dynamic styles
+    1) Planner style - future time - green
+    2) Planner style - current time - red
+    3) Planner style - past time - grey
+    4) Planner style - apointment - orange
+
+All require the same basic styling, but change colours and font weights
+Javascript will apply the styles 2, 3, & 4 dynamically
+
+General Styles
+    1) times (column 1)
+    2) apointment field (column 2)
+    3) save button (column 3)*/
+
+/* General Styles */
+.hour{
+font-weight: bold;
+border-style:solid;
+border-width: 2px 2px 2px 0px;
+height: 4em;
+}
+
+.task{
+border-style:solid;
+border-width: 2px 2px 2px 0px;
+height: 4em;
+background-color: lightsteelblue;
+}
+
+.header{
+    text-align: center;
+}
+
+body{
+    background-image: url("Assets/topography.png");
+}
+
+/* Dynamic styles, to be applied by Javascript */
+.future{
+border-style:solid;
+border-width: 2px 2px 2px 0px;
+height: 4em;
+background-color: chartreuse;
+}
+
+.current{
+border-style:solid;
+border-width: 2px 2px 2px 0px;
+height: 4em;
+background-color: rgb(165, 1, 1);
+}
+
+.appointment{
+border-style:solid;
+border-width: 2px 2px 2px 0px;
+height: 4em;
+background-color: rgb(221, 164, 6);
+}
